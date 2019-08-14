@@ -1,12 +1,15 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: Century Gothic;  
+  font-family: Arial;  
 }
 
-a.anchor {
-    display: block;
-    position: relative;
-    top: -250px;
-    visibility: hidden;
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: #00a087;
 }
