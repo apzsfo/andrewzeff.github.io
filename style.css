@@ -7,6 +7,10 @@ body {
   }
 }
 
+.courses, .orgs {
+  list-style-image: url('https://abeon-hosting.com/images/clipart-bullet-points-7.jpg');
+}
+
 *{
   font-family: Arial;
 }
