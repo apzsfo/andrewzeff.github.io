@@ -3,9 +3,8 @@ body {
 }
 
 
-.courses, .orgs:before {
-  content: "♦";
-  padding-right: 10px;
+.courses, .orgs{
+  list-style-type: circle;
 }
 
 *{
