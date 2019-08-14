@@ -1,11 +1,11 @@
 body {
   padding-top: 196px;
-  margin-left = 30px;
 }
 
 
-.courses, .orgs {
-  list-style-image: url('https://abeon-hosting.com/images/clipart-bullet-points-7.jpg');
+.courses, .orgs:before {
+  content: "♦";
+  padding-right: 10px;
 }
 
 *{
