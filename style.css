@@ -100,6 +100,9 @@ section{
 	background-color: #C0C0C0;
 }
 
+.lo, .lt, .lr, .lf, .li, .ls, .lv{
+	color: #928d8d;	
+}
 
 
 
