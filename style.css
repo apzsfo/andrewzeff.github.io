@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
-body {
+header {
 	margin: 0;
-	background: #222;
+	background: #55d6aa;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 800;
 }
@@ -9,10 +9,6 @@ body {
 .container {
 	width: 80%;
 	margin: 0 auto;
-}
-
-header {
-  background: #55d6aa;
 }
 
 header::after {
@@ -75,8 +71,4 @@ nav a:hover::before {
 
 .courses, .orgs{
   list-style-type: circle;
-}
-
-*{
-  font-family: Arial;
 }
