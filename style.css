@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 header {
 	margin: 0;
-	background: #6F7A86;
+	background: #094012;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 800;
 }
-.non-nav{
+*{
 	color: #ffffff;
-	background: #6F7A86;
+	background: #094012;
 	font-family: 'Work Sans', sans-serif;
 }
 
