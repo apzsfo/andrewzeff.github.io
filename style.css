@@ -12,7 +12,7 @@ header {
 }
 
 .educ, .work, .proj, .interests, .contact{
-  padding-top: 350px;
+  padding-top: 250px;
 }
 
 .container {
@@ -90,3 +90,12 @@ nav a:hover::before {
 .courses, .orgs{
   list-style-type: circle;
 }
+
+section{
+	background-color: #C0C0C0;
+}
+
+
+
+
+
