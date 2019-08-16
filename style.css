@@ -11,6 +11,12 @@ header {
 	font-family: 'Work Sans', sans-serif;
 } 
 
+.IMO{
+/*   position: relative;
+  top: 10px; */
+}
+
+
 .educbar{
   margin-bottom: 50px;
 }
@@ -24,7 +30,10 @@ header {
 
 .tph{
   padding-top: 35px;
-  margin-left: 0px;
+}
+
+.rph{
+  padding-top: 35px;
 }
 
 .container {
@@ -136,4 +145,8 @@ section{
 }
 .lo, .lt, .lr, .lf, .li, .ls, .lv{
 	color: #928d8d;	
+}
+
+.bot, .maze, .site, .os, .game{
+  text-align: left;
 }
