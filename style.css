@@ -5,11 +5,11 @@ header {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 800;
 }
-*{
-	color: #000000;
-	background: #ffffff;
+ *{
+	#color: #000000;
+	#background: #ffffff;
 	font-family: 'Work Sans', sans-serif;
-}
+} 
 
 .educ, .work, .proj, .interests, .contact{
   padding-top: 250px;
@@ -17,7 +17,7 @@ header {
 
 .tph{
   padding-top: 35px;
-  margin-left: 50px;
+  margin-left: 0px;
 }
 
 .container {
@@ -31,6 +31,11 @@ header::after {
   clear: both;
 }
 
+.contact{
+  padding-bottom: 250px;
+}
+
+
 .logo {
   display: inline-block;
   float: left;
@@ -40,12 +45,24 @@ header::after {
 }
 
 nav {
+  height: 50px;
+  width: 100%;
   float: right;
+  position: sticky;
+  top: 0;
+  border-top: 1px solid rgba(255, 255, 255, .2);
+  border-bottom: 1px solid rgba(255, 255, 255, .2);
 }
 
 nav ul {
   margin: 0;
   padding: 0;
+  list-style: none;
+  display: flex;
+  padding 0 100x;
+}
+
+nav ul li{
   list-style: none;
 }
 
@@ -97,13 +114,18 @@ nav a:hover::before {
 }
 
 section{
+  padding-top: 50px;
+  margin-bottom: 0px;
 	background-color: #C0C0C0;
+  background-size: cover;
+  width: 100%;
 }
-
+.cp{
+  margin-left: 30px;
+  margin-top: -30px;
+  font-weight: 900;
+  color: #696969;
+}
 .lo, .lt, .lr, .lf, .li, .ls, .lv{
 	color: #928d8d;	
 }
-
-
-
-
