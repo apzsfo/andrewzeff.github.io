@@ -28,12 +28,13 @@ header {
   padding-top:230px;
 } */
 
-.tph{
+#tph, #rph{
   padding-top: 35px;
+  font-family: "Courier New";
 }
 
-.rph{
-  padding-top: 35px;
+#fph{
+  font-family: "Courier New";
 }
 
 .container {
@@ -150,3 +151,5 @@ section{
 .bot, .maze, .site, .os, .game{
   text-align: left;
 }
+
+
