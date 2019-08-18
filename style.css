@@ -5,7 +5,7 @@ header {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 800;
 }
-  .non-nav, .container{
+  html{
 /* 	color: #000000;*/
   background-size: cover;
 	background: #FFF8DC; 
