@@ -1,38 +1,17 @@
-let i = 0;
-    let j = 0;
-    let k = 0;
-    let p1 = 'I am a rising junior at UCLA pursuing a B.S. in Computer Science.';
-    let p2 = 'I am currently seeking a software engineering internship for the summer of 2020.';
-    let p3 = 'Explore this site to see my background, job experience, project experience, and general interests.';
-		var speed = 50;
-
-  const typeWriter3 = () =>{
-  if (k < p3.length) {
-     document.getElementById("rph").innerHTML += p3.charAt(k);
-        k++;
-        setTimeout(typeWriter3, 60);
-  }
-};
+	let i = 0;
+    let p1 = 'I am a rising junior at UCLA pursuing a B.S. in Computer Science. I am currently seeking a software engineering internship for the summer of 2020. Explore this site to see my background, job experience, project experience, and general interests.';
+		var speed = 30;
     
-const typeWriter2 = (typeWriter3) =>{
-  if (j < p2.length) {
-    document.getElementById("tph").innerHTML += p2.charAt(j);
-    j++;
-    setTimeout(()=>{typeWriter2(typeWriter3);}, 60);
-  }
-  if(j == p2.length)
-  	typeWriter3();
-};
-    
-const typeWriter = (typeWriter2) =>{
+const typeWriter = () =>{
   if (i < p1.length) {
     document.getElementById("fph").innerHTML += p1.charAt(i);
-    console.log(i);
+    if(i === 65 || i === 146 || i === 244){
+      document.getElementById("fph").innerHTML += "<br />";
+      document.getElementById("fph").innerHTML += "<br />";
+      document.getElementById("fph").innerHTML += "<br />";
+    }
     i++;
-    setTimeout(()=>{typeWriter(typeWriter2);}, 60);
-  }
-  if(i == p1.length) {
-   	typeWriter2(typeWriter3); 
+    setTimeout(typeWriter, speed);
   }
 };
 
@@ -61,4 +40,3 @@ $(document).ready(function(){
     } // End if
   });
 });
-
