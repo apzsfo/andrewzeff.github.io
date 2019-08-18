@@ -5,11 +5,21 @@ header {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 800;
 }
- *{
-	#color: #000000;
-	#background: #ffffff;
+  .non-nav, .container{
+/* 	color: #000000;*/
+  background-size: cover;
+	background: #FFF8DC; 
 	font-family: 'Work Sans', sans-serif;
-} 
+   width: auto; */
+   margin: auto 10px; */
+/*    height: 2000px;  */
+}  
+
+.footer{
+  background-color: #C0C0C0;
+  font-family: 'Work Sans', sans-serif;
+}
+
 
 .IMO{
 /*   position: relative;
@@ -24,14 +34,18 @@ header {
 .educ, .work, .proj, .interests, .contact{
   padding-top: 115px;
 }
-/* .contact{
-  padding-top:230px;
-} */
 
-#tph, #rph{
-  padding-top: 35px;
-  font-family: "Courier New";
+/* .e, .w, .p, .i, .c, .nav{
+  margin-top: -40px;
+  margin-left: 30px;
 }
+ */
+ #menu{
+  position: absolute;
+  top: -40px;
+  margin-left: 100px;
+} 
+
 
 #fph{
   font-family: "Courier New";
@@ -59,6 +73,8 @@ header::after {
   padding: 10px 0;
   margin-left: -50px;
   color: #928d8d;
+  margin-top: -30px;
+  margin-left: 10px;
 }
 
 nav {
@@ -74,7 +90,7 @@ nav ul {
   padding: 0;
   list-style: none;
   display: flex;
-  padding 0 100x;
+  padding: 0 100x;
   #height: 100px;
   text-align: center;
 }
@@ -119,11 +135,14 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
+/*   margin-left: 30px;
+  margin-bottom: -100px; */
 }
 
 .non-nav{
   padding-top: 50px;
   margin-left: 40px;
+  
 }
 
 
@@ -152,4 +171,10 @@ section{
   text-align: left;
 }
 
-
+html, body {
+    margin:0;
+    padding:0;
+}
+h1 {
+    margin:0;
+}
