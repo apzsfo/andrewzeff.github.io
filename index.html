@@ -18,7 +18,7 @@ div.container {
   top: 0;
   padding-bottom; 50px;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #FFF8DC;
   padding: 50px;
   font-size: 20px;
 }
@@ -27,13 +27,13 @@ div.container {
 <body>
 <div class="container">
   <a class = "logo" href="#">AZ</a>
-  <nav>
-  	<ul>
-      <li><a class="educbar" href="#educ">Education</a></li>
-      <li><a href="#work">Work Experience</a></li>
-      <li><a href="#proj">Projects</a></li>
-      <li><a href="#interests">Interests</a></li>
-      <li><a href="#contact">Contact Me</a></li>
+  <nav class="nav">
+  	<ul id="menu">
+      <li><a class="e" href="#educ">Education</a></li>
+      <li><a class="w" href="#work">Work Experience</a></li>
+      <li><a class="p" href="#proj">Projects</a></li>
+      <li><a class="i" href="#interests">Interests</a></li>
+      <li><a class="c" href="#contact">Contact Me</a></li>
   	</ul>
   </nav> 
 </div>
@@ -41,13 +41,10 @@ div.container {
 <div class="non-nav">
     <h1 id="az">Hi,</h1> 
     <h1>I'm Andy Zeff.</h1>
-  			<p id="demo"></p>
         <p id="fph"></p> 
-        <p id="tph"></p>
-        <p id="rph"></p>
   
-	<script>
-typeWriter(typeWriter2);
+<script>
+	typeWriter();
 </script>
   
 <!--     <hr> -->
@@ -162,11 +159,7 @@ typeWriter(typeWriter2);
     <div class="interests" id="interests">
       <h2>Interests</h2>
         <p>In my free time, I enjoy playing basketball and tennis, watching movies, and solving interesting math problems.</p>
-      	<br>
-      	<br>
-      	<br>
-      	<br>
-      	<br>
+      	<br><br><br><br><br>
       	<img class="IMO" src="https://latex.artofproblemsolving.com/f/b/8/fb89592e2b7f740039a8d16e7184e085a07a93d6.png" style="width:355px;height:355px;" />
     </div>
 <!--     <hr> -->
@@ -177,11 +170,11 @@ typeWriter(typeWriter2);
       	<p>View my <a class="lv" href="./AndrewZeffResume8.13.19.pdf" target="_blank">resume</a>.</p>
     </div>
 <!--     <hr> -->
-    <section class="footer">
+    
+  </div>
+  <section class="footer">
           <p class="cp">&copy; 2019 Andy Zeff</p>
     </section>
-  </div>
-  
 </body>
 
 </html>
